@@ -1,0 +1,34 @@
+[
+    {
+        "name": "numpy"
+    },
+    {
+        "name": "PyOpenGL",
+        "import": "OpenGL",
+        "from": ["GL", "GLU"]
+    },
+    {
+        "name": "PyOpenGL_accelerate",
+        "import": ""
+    },
+    {
+        "name": "flask"
+    },
+    {
+        "name": "requests"
+    },
+    {
+        "name": "pynput"
+    },
+    {
+        "name": "pywin32",
+        "import": ["win32api", "win32con", "win32gui"]
+    },
+    {
+        "name": "pygame"
+    },
+    {
+        "name": "pyserial",
+        "import": "serial"
+    }
+]
