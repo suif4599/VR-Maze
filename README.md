@@ -1,5 +1,21 @@
 # VR Maze
 
+## Introduction
+
+In this 3D maze game, you cannot jump; instead, you can change the direction of gravity by double-clicking the rocker (in VR mode) or pressing the space bar (in PC mode). To aid your memory, you 
+can click the rocker or press the left Alt key to (un)mark areas in the maze. The game features several larger chambers, and entering one will toggle its "color," connecting some parts of the maze 
+while disconnecting some other parts. All elements are randomly generated, and there is always a path from any point to the endpoint, which is marked green. Enjoy it!
+
+## Demo Gallary
+
+### Color toggling
+
+- ![blink](images/blink.gif)
+
+### gravity redirection
+
+- ![gravity](images/gravity.gif)
+
 ## Usage
 
 `python main.py [-h] [--secret] [-v] [-s SERIAL] [-b BAUDRATE] [-c] [-i] [--ipd IPD] [--concentrate CONCENTRATE] [--speed SPEED] [--size SIZE] [--collidedistance COLLIDEDISTANCE] [--maxbrightness MAXBRIGHTNESS] [--fovy FOVY]`
@@ -35,8 +51,12 @@ use python 3.7
 #### 2. Arduino Micro + MPU6050
 
 - Merely use the code in `./game/arduino/micro/micro.ino`, the orientation of mpu should be the same as the following image
-  ![mpu_placing](mpu_placing.jpg)
+  ![mpu_placing](images/mpu_placing.jpg)
 - the `SDA` pin should be connected to `pin2`, the `SCL` pin should be connected to `pin3`
+
+##### recommended orientation
+
+- ![recommended orientation](images/orientation.jpg)
 
 ### Other Scheme
 
